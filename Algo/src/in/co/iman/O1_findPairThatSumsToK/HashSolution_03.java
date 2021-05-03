@@ -5,9 +5,6 @@ package in.co.iman.O1_findPairThatSumsToK;
 
 // time complexity o(n)
 
-
-import org.junit.Test;
-
 import java.util.HashMap;
 import java.util.Map;
 
