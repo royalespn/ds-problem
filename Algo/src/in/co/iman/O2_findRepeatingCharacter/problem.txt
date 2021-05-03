@@ -1,0 +1,3 @@
+Given a string str, create a function that returns the first repeating charater.
+
+If such a character does not exit return null.

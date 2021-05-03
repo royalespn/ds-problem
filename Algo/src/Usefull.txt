@@ -17,3 +17,7 @@ System.out.print(arr[i] + "\t");
 }
 
 -------
+string to char array
+ String str = "Highoogle";
+ char[] ch = str.toCharArray();
+
