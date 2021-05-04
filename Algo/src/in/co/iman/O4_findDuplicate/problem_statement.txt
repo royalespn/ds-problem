@@ -1,0 +1,8 @@
+Given an array of integers arr that contains n+1 elements between 1 and n inclusive,
+creat a function that return the duplicate element.
+
+Assume that is only one duplicate number
+
+
+Think of Pigeon hole principle and the solution to it using
+Floyd's cycle detection algorithm(tortoise n hare)
