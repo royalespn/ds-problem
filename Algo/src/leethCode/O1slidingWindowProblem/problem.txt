@@ -1,0 +1,21 @@
+https://www.youtube.com/watch?v=MK-NZ4hN7rs&ab_channel=TheSimpleEngineer
+
+https://leetcode.com/tag/sliding-window/
+
+
+sliding window technique:
+=========================
+that most of the time they can be solved in O(N) time
+ and O(1) space complexity.
+
+1. O1MaxSubArrayOfSizeK
+--------------------------------------------------------------
+ Given an Array of integers and an Integer k, find the maximum
+ sum subarray of size k
+
+ eg input:
+ [4,2,1,7,8,1,2,8,1,0]
+ size k = 3:
+
+ answer: 16
+--------------------------------------------------------------

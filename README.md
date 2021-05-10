@@ -12,3 +12,11 @@
 
 --------------------
 6- Maximum subarray 
+
+
+
+
+
+LeethCode:
+------------
+1 - sliding window problem
