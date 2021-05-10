@@ -1,0 +1,5 @@
+Given a binary tree of integers root, create 3 functions
+to print the elements:
+1. Pre-order  [root-->left-->right]
+2. In-Order   [left-->root-->right]
+3. Post-Order [left-->right-->root]
