@@ -20,3 +20,5 @@
 LeethCode:
 ------------
 1 - sliding window problem
+
+2 - Binary Seach
