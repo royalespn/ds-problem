@@ -22,3 +22,9 @@ LeethCode:
 1 - sliding window problem
 
 2 - Binary Seach
+
+3 - Add +1 to an Array
+
+4 - Move Zeros to end while maintaining order of non-zeros
+
+5 - 
