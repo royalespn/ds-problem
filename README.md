@@ -17,7 +17,7 @@
 
 
 
-LeethCode:
+LeetCode:
 ------------
 1 - sliding window problem
 
