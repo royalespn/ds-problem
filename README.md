@@ -28,3 +28,10 @@ LeetCode:
 4 - Move Zeros to end while maintaining order of non-zeros
 
 5 - 
+
+
+
+Recursion:
+-------------
+ 1 - factorial of given number: recursion and optimal-recursion way
+ 2 -     
