@@ -33,5 +33,9 @@ LeetCode:
 
 Recursion:
 -------------
- 1 - factorial of given number: recursion and optimal-recursion way
- 2 -     
+1 - factorial of given number: recursion and optimal-recursion way
+ 
+2 - Euclidean Algorithm: Greatest common divisor(G.C.D) i.e. the largest 
+      number that divides both of them without leaving a remainder
+
+3 -   
