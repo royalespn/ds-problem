@@ -5,6 +5,8 @@ public class O2SmallestSubArray {
 
     private static boolean smallestSunarray(int targetSum, int[] input) {
 
+
+        return true;
     }
 
     public static void main(String[] args) {
