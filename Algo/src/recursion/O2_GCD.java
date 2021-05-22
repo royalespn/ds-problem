@@ -2,7 +2,10 @@ package recursion;
 
 /* https://www.youtube.com/watch?v=uAWxDcFaVwc&ab_channel=TrainingMug
  *
- * GCD can be done by using either substution or multiplicatin/modulas recursive call
+ * GCD can be done by using either substitution or multiplicatin/modulas recursive call
+ *
+ * Subtraction Euclidean : time complexity is O(n)
+ * Multiplication Euclidean : time complexity is O(log(a + b))
  *
  * */
 
