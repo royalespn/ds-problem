@@ -1,5 +1,8 @@
 package leethCode.O6SortedSquaredArry;
 
+
+// https://www.youtube.com/watch?v=4eWKHLSRHPY&list=PLU_sdQYzUj2mE8quVfDEGnupdS7XuU2YW&index=7&ab_channel=NickWhite
+
 import org.junit.Assert;
 import org.junit.Test;
 
