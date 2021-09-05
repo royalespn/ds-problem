@@ -4,7 +4,6 @@ package leethCode.O2BinarySearch;
 
 // Time complexity O(log n)
 
-import org.junit.Assert;
 
 public class BinarySearch {
 

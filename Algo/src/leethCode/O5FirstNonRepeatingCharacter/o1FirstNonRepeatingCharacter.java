@@ -12,9 +12,9 @@ eg,
 */
 
 
-import org.junit.Assert;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -57,7 +57,7 @@ public class o1FirstNonRepeatingCharacter {
 
         String input = "aaabcccdeeef";
         String firstNonRepeat = findFirstNonRepeatingCharacter(input);
-        Assert.assertEquals("b",firstNonRepeat);
+        Assertions.assertEquals("b",firstNonRepeat);
         System.out.println("---- test1 " + firstNonRepeat);
 
     }
@@ -67,7 +67,7 @@ public class o1FirstNonRepeatingCharacter {
 
         String input = "abcbad";
         String firstNonRepeat = findFirstNonRepeatingCharacter(input);
-        Assert.assertEquals("c",firstNonRepeat);
+        Assertions.assertEquals("c",firstNonRepeat);
         System.out.println("---- test2 " + firstNonRepeat);
 
     }
@@ -77,7 +77,7 @@ public class o1FirstNonRepeatingCharacter {
 
         String input = "a";
         String firstNonRepeat = findFirstNonRepeatingCharacter(input);
-        Assert.assertEquals("a",firstNonRepeat);
+        Assertions.assertEquals("a",firstNonRepeat);
         System.out.println("---- test2 " + firstNonRepeat);
 
     }
@@ -87,7 +87,7 @@ public class o1FirstNonRepeatingCharacter {
 
         String input = "";
         String firstNonRepeat = findFirstNonRepeatingCharacter(input);
-        Assert.assertEquals("NotFound",firstNonRepeat);
+        Assertions.assertEquals("NotFound",firstNonRepeat);
         System.out.println("---- test2 " + firstNonRepeat);
 
     }

@@ -6,7 +6,6 @@ package recursion;
  *  2. Optimal-recursive funtion (using accumulator)
  * */
 
-import java.time.Instant;
 
 public class FactorialOdNumber {
 

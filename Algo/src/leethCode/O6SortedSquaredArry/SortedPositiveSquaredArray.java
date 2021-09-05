@@ -3,8 +3,8 @@ package leethCode.O6SortedSquaredArry;
 
 // https://www.youtube.com/watch?v=4eWKHLSRHPY&list=PLU_sdQYzUj2mE8quVfDEGnupdS7XuU2YW&index=7&ab_channel=NickWhite
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 public class SortedPositiveSquaredArray {
 
@@ -36,11 +36,13 @@ public class SortedPositiveSquaredArray {
 
         int[] inputArray = new int[]{-4,-3,1,2,5};
         int[] squared = squaredArray(inputArray);
-        Assert.assertEquals(squared[0], 1);
-        Assert.assertEquals(squared[1], 4);
-        Assert.assertEquals(squared[2], 9);
-        Assert.assertEquals(squared[3], 16);
-        Assert.assertEquals(squared[4], 25);
+        Assertions.assertArrayEquals(squared, new int[]{1,4,9,16,25});
+
+        Assertions.assertEquals(squared[0], 1);
+        Assertions.assertEquals(squared[1], 4);
+        Assertions.assertEquals(squared[2], 9);
+        Assertions.assertEquals(squared[3], 16);
+        Assertions.assertEquals(squared[4], 25);
     }
 
     @Test
@@ -48,9 +50,9 @@ public class SortedPositiveSquaredArray {
 
         int[] inputArray = new int[]{-1,2,4,5};
         int[] squared = squaredArray(inputArray);
-        Assert.assertEquals(squared[0], 1);
-        Assert.assertEquals(squared[1], 4);
-        Assert.assertEquals(squared[2], 16);
-        Assert.assertEquals(squared[3], 25);
+        Assertions.assertEquals(squared[0], 1);
+        Assertions.assertEquals(squared[1], 4);
+        Assertions.assertEquals(squared[2], 16);
+        Assertions.assertEquals(squared[3], 25);
     }
 }

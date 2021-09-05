@@ -1,6 +1,7 @@
 package in.co.iman.O6_MergeInterval;
 
-import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
+
 import java.util.*;
 
 public class ShippingZippedCode {
@@ -33,8 +34,8 @@ public class ShippingZippedCode {
         int[][] zipCode1 = {{94133, 94133}, {94200, 94299}, {94600, 94699}};
         int[][] zipCode2 = {{94133, 94133}, {94200, 94299}, {94226, 94399}};
 
-        Assert.assertEquals(new int[][]{{94133, 94133}, {94200, 94299}, {94600, 94699}}, findZip(zipCode1));
-        Assert.assertEquals(new int[][]{{94133, 94133}, {94200, 94399}}, findZip(zipCode2));
+        Assertions.assertEquals(new int[][]{{94133, 94133}, {94200, 94299}, {94600, 94699}}, findZip(zipCode1));
+        Assertions.assertEquals(new int[][]{{94133, 94133}, {94200, 94399}}, findZip(zipCode2));
     }
 }
 
