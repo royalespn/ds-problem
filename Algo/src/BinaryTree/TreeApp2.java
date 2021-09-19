@@ -10,6 +10,11 @@ public class TreeApp2 {
         tree.insert(5);
         tree.insert(10);
 
+        tree.insert(10);
+        tree.insert(5);
+        tree.insert(10);
+
+
 
 
 
@@ -20,6 +25,9 @@ public class TreeApp2 {
         System.out.println("The min value: " + tree.findMinimum().data);
 
         System.out.println("Is symmetrical " + tree.isSymmetric(tree.getRoot()));
+        System.out.println("Max depth: " + tree.maximumDepth(tree.getRoot()));
+
+
     }
 
 }

@@ -1,3 +1,4 @@
+-------1--------------------
 -- SYMMETRIC TREE --
 Given the root of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center).
 
@@ -11,8 +12,31 @@ LeetCode: https://leetcode.com/problems/symmetric-tree/submissions/
 
 Nick White: https://www.youtube.com/watch?v=-5E5Jt_HKLc&ab_channel=NickWhite
 
---------------------------
+-------2-------------------
 -- MAXIMUM DEPTH OF BINARY TREE --
+
+Given the root of a binary tree, return its maximum depth.
+
+A binary tree's maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
+
+Answer:
+LeetCode: https://leetcode.com/problems/maximum-depth-of-binary-tree/
+Kevin: https://www.youtube.com/watch?v=D2cFSDfg0So&ab_channel=KevinNaughtonJr.
+
+-------3-------------------
+-- Validate Binary Search Tree --
+Given the root of a binary tree, determine if it is a valid binary search tree (BST).
+
+A valid BST is defined as follows:
+
+The left subtree of a node contains only nodes with keys less than the node's key.
+The right subtree of a node contains only nodes with keys greater than the node's key.
+Both the left and right subtrees must also be binary search trees.
+
+Answer:
+LeetCode: https://leetcode.com/problems/validate-binary-search-tree/
+https://www.youtube.com/watch?v=xTKI0hfwHkM&ab_channel=AlgorithmsMadeEasy
+
 
 
 

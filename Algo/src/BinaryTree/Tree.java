@@ -1,5 +1,7 @@
 package BinaryTree;
 
+import java.util.List;
+
 public class Tree implements TreeServiceInterface {
 
     private Node root;
@@ -164,4 +166,18 @@ public class Tree implements TreeServiceInterface {
         return (t1.data == t2.data) && isMirror(t1.leftChild, t2.rightChild) && isMirror(t1.rightChild, t2.leftChild);
 
     }
+
+    public int maximumDepth(Node node) {
+       // https://www.youtube.com/watch?v=D2cFSDfg0So&ab_channel=KevinNaughtonJr.
+        if (node == null){
+            return 0;
+        }
+
+        int leftDepth = maximumDepth(node.leftChild);
+        int rightDepth = maximumDepth(node.rightChild);
+
+        return Math.max(leftDepth, rightDepth) +1;
+    }
+
+
 }
