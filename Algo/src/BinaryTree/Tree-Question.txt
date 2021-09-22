@@ -1,3 +1,5 @@
+https://www.ideserve.co.in/#trees
+
 -------1--------------------
 -- SYMMETRIC TREE --
 Given the root of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center).
@@ -100,3 +102,20 @@ LeetCode 99
 
 
 https://www.youtube.com/watch?v=LR3K5XAWV5k&ab_channel=IDeserve
+
+
+----------9-------------------------------------------
+Lowest Common Ancestor of a Binary Search Tree
+
+Given a binary search tree (BST), find the lowest common ancestor (LCA) of two given nodes in the BST.
+
+According to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two
+nodes p and q as the lowest node in T that has both p and q as descendants
+(where we allow a node to be a descendant of itself).”
+
+LeetCode: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+
+Answer:
+https://www.youtube.com/watch?v=6POfA8fruxI&ab_channel=NickWhite
+
+--------------------------------------
