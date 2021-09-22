@@ -24,6 +24,8 @@ public class TreeApp2 {
 
         System.out.println("Level Order Traversal " + tree.levelOrderTraversal(tree.getRoot()));
 
+        System.out.println("Right Side Traversal " + tree.rightSideView(tree.getRoot()));
+
 
     }
 

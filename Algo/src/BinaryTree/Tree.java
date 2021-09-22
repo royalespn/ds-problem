@@ -245,4 +245,39 @@ public class Tree implements TreeServiceInterface {
         return result;
     }
 
+    public List<Integer> rightSideView(Node root) {
+        Queue<Node> q = new LinkedList<>();
+
+        List<Integer> res = new ArrayList<>();
+
+        if(root == null) return res;
+
+        q.offer(root);
+
+        while(!q.isEmpty()){
+
+            int size = q.size();
+
+            for(int i = 0; i<size; i++){
+
+                Node n = q.poll();
+
+                if(i==0) {
+                    res.add(n.data);
+                }
+
+                if(n.rightChild != null){
+                    q.offer(n.rightChild);
+                }
+
+                if(n.leftChild != null){
+                    q.offer(n.leftChild);
+                }
+            }
+        }
+        return res;
+    }
+
+
+
 }
