@@ -35,8 +35,53 @@ Both the left and right subtrees must also be binary search trees.
 
 Answer:
 LeetCode: https://leetcode.com/problems/validate-binary-search-tree/
-https://www.youtube.com/watch?v=xTKI0hfwHkM&ab_channel=AlgorithmsMadeEasy
+https://www.youtube.com/watch?v=dB9aikwZttY&ab_channel=BytebyByte [understand the concept]
+https://www.youtube.com/watch?v=xTKI0hfwHkM&ab_channel=AlgorithmsMadeEasy [Good one-> works]
 
+----4-----------------------
+--- Range Sum of BST ---
+
+Given the root node of a binary search tree and two integers low and high,
+return the sum of values of all nodes with a value in the inclusive range [low, high].
+Input: root = [10,5,15,3,7,null,18], low = 7, high = 15
+Output: 32
+Explanation: Nodes 7, 10, and 15 are in the range [7, 15]. 7 + 10 + 15 = 32.
+
+Answer:
+Leetcode: https://leetcode.com/problems/range-sum-of-bst/
+
+----5-----------------------
+ Binary Tree Level Order Traversal
+ Given the root of a binary tree, return the level order traversal of its nodes' values.
+  (i.e., from left to right, level by level).
+
+  Input: root = [3,9,20,null,null,15,7]
+  Output: [[3],[9,20],[15,7]]
+
+  Input: root = [1]
+  Output: [[1]]
+
+  Input: root = []
+  Output: []
+
+https://www.journaldev.com/44201/breadth-first-search-depth-first-search-bfs-dfs
+LeetCode: 102. Binary Tree Level Order Traversal
+https://leetcode.com/problems/binary-tree-level-order-traversal/
+
+Answer: Leetcode: https://leetcode.com/problems/binary-tree-level-order-traversal/submissions/
+
+----------6------------------
+Binary tree right side view
+
+Given the root of a binary tree, imagine yourself standing on the right side of it,
+return the values of the nodes you can see ordered from top to bottom.
+Input: root = [1,2,3,null,5,null,4]
+Output: [1,3,4]
+
+Nick https://www.youtube.com/watch?v=xyHb_ghpXf4&ab_channel=NickWhite
+https://www.youtube.com/watch?v=mm4Q1a0YE0E&ab_channel=ProgrammingTutorials [nice]
+
+-------------------------
 
 
 

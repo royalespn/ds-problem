@@ -1,6 +1,9 @@
 package BinaryTree;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 public class Tree implements TreeServiceInterface {
 
@@ -168,16 +171,78 @@ public class Tree implements TreeServiceInterface {
     }
 
     public int maximumDepth(Node node) {
-       // https://www.youtube.com/watch?v=D2cFSDfg0So&ab_channel=KevinNaughtonJr.
-        if (node == null){
+        // https://www.youtube.com/watch?v=D2cFSDfg0So&ab_channel=KevinNaughtonJr.
+        if (node == null) {
             return 0;
         }
 
         int leftDepth = maximumDepth(node.leftChild);
         int rightDepth = maximumDepth(node.rightChild);
 
-        return Math.max(leftDepth, rightDepth) +1;
+        return Math.max(leftDepth, rightDepth) + 1;
     }
 
+    public boolean validateBST(Node node) {
+
+
+        return false;
+    }
+
+    public List<Integer> breadthFirstSearch(Node node) {
+
+        Queue<Node> queue = new LinkedList<>();
+        List<Integer> bfs = new ArrayList<>();
+
+        if (root == null) {
+            return bfs;
+        }
+
+        queue.offer(node);
+
+        while (!queue.isEmpty()) {
+            Node n = queue.remove();
+            bfs.add(n.data);
+
+            if (n.leftChild != null) {
+                queue.offer(n.leftChild);
+            }
+            if (n.rightChild != null) {
+                queue.offer(n.rightChild);
+            }
+        }
+        return bfs;
+    }
+
+    public List<List<Integer>> levelOrderTraversal(Node root) {
+
+        Queue<Node> queue = new LinkedList<>();
+        List<List<Integer>> result = new ArrayList<>();
+
+        if(root == null) return result;
+
+        queue.add(root);
+
+        while(!queue.isEmpty()) {
+            List<Integer> r = new ArrayList<>();
+
+            int size = queue.size();
+
+            for(int i = 0; i < size; i++){
+                Node node = queue.poll();
+                r.add(node.data);
+
+                if(node.leftChild !=null) {
+                    queue.add(node.leftChild);
+                }
+
+                if(node.rightChild !=null) {
+                    queue.add(node.rightChild);
+                }
+            }
+            result.add(r);
+        }
+
+        return result;
+    }
 
 }
