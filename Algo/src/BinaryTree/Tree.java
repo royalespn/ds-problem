@@ -292,4 +292,19 @@ public class Tree implements TreeServiceInterface {
 
     }
 
+    public Node searchBST(Node root, int val) {
+        if(root == null) return null;
+
+        if(root.data == val) return root;
+
+        if(val < root.data) {
+            return searchBST(root.leftChild, val);
+        }
+
+        if(val > root.data) {
+            return searchBST(root.rightChild, val);
+        }
+
+        return null;
+    }
 }

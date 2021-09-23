@@ -36,6 +36,9 @@ public class TreeApp2 {
         System.out.println("Lowest common ancestor  " + tree.lowestCommonAncestor(tree.getRoot(), treeP.getRoot(),treeQ.getRoot()));
 
 
+        System.out.println("Binary search tree  " + tree.searchBST(tree.getRoot(), 1));
+
+
 
 
     }

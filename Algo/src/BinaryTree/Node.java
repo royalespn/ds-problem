@@ -9,5 +9,10 @@ public class Node {
     public void displayNode() {
         System.out.println('{' + data + '}');
     }
+
+    @Override
+    public String toString() {
+        return data+"";
+    }
 }
 

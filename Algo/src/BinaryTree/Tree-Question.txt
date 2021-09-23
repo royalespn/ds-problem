@@ -133,8 +133,19 @@ Output: [2,1,3]
 
 https://www.youtube.com/watch?v=sE8q8RSW71Y&ab_channel=NickWhite
 Leetcode: https://leetcode.com/problems/search-in-a-binary-search-tree/
-------------------------------------------------------------------------
 
+---------11---------------------------------------------------------------
+Convert Sorted Array to Binary Search Tree
 
+Given an integer array nums where the elements are sorted in ascending order,
+convert it to a height-balanced binary search tree.
+
+A height-balanced binary tree is a binary tree in which the depth of the two subtrees
+of every node never differs by more than one.
+
+Answer:
+https://www.youtube.com/watch?v=12omz-VAyRk&ab_channel=NickWhite
+Answer: https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+---------------
 
 
