@@ -4,17 +4,21 @@ package leethCode.O2BinarySearch;
 
 // Time complexity O(log n)
 
+//https://leetcode.com/problems/binary-search/
+
 
 public class BinarySearch {
 
 
     private static int binarySearch(int[] arr, int itemSearch) {
 
+        if(arr.length ==0 ) return -1;
+
         int left = 0;
         int right = arr.length - 1;
 
         while (left <= right) {
-            int mid = (right + left) / 2;
+            int mid = left + (right - left) / 2;
 
             if(itemSearch == arr[mid]){
                 return mid;

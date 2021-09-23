@@ -278,6 +278,18 @@ public class Tree implements TreeServiceInterface {
         return res;
     }
 
+    public Node lowestCommonAncestor(Node root, Node p, Node q) {
 
+        if(p.data < root.data && q.data < root.data) {
+            return lowestCommonAncestor(root.leftChild, p, q);
+        }
+
+        if(p.data > root.data && q.data > root.data) {
+            return lowestCommonAncestor(root.rightChild, p, q);
+        }
+
+        return root;
+
+    }
 
 }

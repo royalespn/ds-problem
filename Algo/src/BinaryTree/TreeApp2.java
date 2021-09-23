@@ -27,6 +27,17 @@ public class TreeApp2 {
         System.out.println("Right Side Traversal " + tree.rightSideView(tree.getRoot()));
 
 
+        Tree treeP = new Tree();
+        treeP.insert(0);
+
+        Tree treeQ = new Tree();
+        treeQ.insert(2);
+
+        System.out.println("Lowest common ancestor  " + tree.lowestCommonAncestor(tree.getRoot(), treeP.getRoot(),treeQ.getRoot()));
+
+
+
+
     }
 
 }
