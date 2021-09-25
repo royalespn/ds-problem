@@ -39,6 +39,9 @@ public class TreeApp2 {
         System.out.println("Binary search tree  " + tree.searchBST(tree.getRoot(), 1));
 
 
+        System.out.println("sorted array to BST  " + tree.sortedArrayToBST(new int[]{1,2,3,4}));
+
+
 
 
     }

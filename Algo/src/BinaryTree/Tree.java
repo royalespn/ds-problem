@@ -304,7 +304,21 @@ public class Tree implements TreeServiceInterface {
         if(val > root.data) {
             return searchBST(root.rightChild, val);
         }
-
         return null;
+    }
+
+    public Node sortedArrayToBST(int[] nums) {
+        if(nums.length == 0) return null;
+        return helperSortedBST(nums, 0, nums.length-1);
+    }
+
+    public Node helperSortedBST(int[] n, int l, int r) {
+        if(l>r) return null;
+        int mid = l + (r - l)/ 2;
+
+        Node nd = new Node(n[mid]);
+        nd.leftChild = helperSortedBST(n, l, mid-1);
+        nd.rightChild = helperSortedBST(n, mid+1, r);
+        return nd;
     }
 }
