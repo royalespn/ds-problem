@@ -81,6 +81,4 @@ public class TestSumSwap {
         Assertions.assertArrayEquals(new int[]{}, findSwapValues(firstArray, secondArray));
     }
 
-//Jin.li@zoom.us
-
 }
