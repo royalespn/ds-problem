@@ -14,8 +14,8 @@ Input: {3,4,5,1,2}
 Output: 1*/
 
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 public class MinimumInRotatedSortedArray {
 
@@ -45,10 +45,10 @@ public class MinimumInRotatedSortedArray {
     public void test() {
         int[] input = new int[]{4, 5, 6, 7, 0, 1, 2};
         int min = findMinInRotatedSortedArray(input);
-        Assert.assertEquals(0, min);
+        Assertions.assertEquals(0, min);
 
         int[] input2 = new int[]{3, 4, 5, 1, 2};
         int min2 = findMinInRotatedSortedArray(input2);
-        Assert.assertEquals(1, min2);
+        Assertions.assertEquals(1, min2);
     }
 }
