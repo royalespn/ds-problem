@@ -12,7 +12,6 @@ public class ReverseAStack {
         if (st.isEmpty()) return;
 
         int element = st.pop();
-
         reverse(st);
 
         insertAtBottom(st, element);
