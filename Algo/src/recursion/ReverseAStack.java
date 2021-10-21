@@ -17,7 +17,6 @@ public class ReverseAStack {
         insertAtBottom(st, element);
     }
 
-
     public static void insertAtBottom(Stack<Integer> st, int element) {
         if (st.isEmpty()) {
             st.push(element);
@@ -28,7 +27,6 @@ public class ReverseAStack {
         insertAtBottom(st, element);
         st.push(temp);
     }
-
 
     @Test
     public void test() {
