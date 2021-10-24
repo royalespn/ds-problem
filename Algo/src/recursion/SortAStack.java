@@ -27,16 +27,16 @@ public class SortAStack {
 
     }
 
-    private static void insertAtCorrectPlace(Stack<Integer> st, Integer i) {
+    private static void insertAtCorrectPlace(Stack<Integer> st, Integer element) {
 
-        if (st.isEmpty() || st.peek() < i) {
-            st.push(i);
+        if (st.isEmpty() || st.peek() < element) {
+            st.push(element);
             return;
         }
 
-        int element = st.pop();
-        insertAtCorrectPlace(st, i);
-        st.push(element);
+        int temp = st.pop();
+        insertAtCorrectPlace(st, element);
+        st.push(temp);
     }
 
 
@@ -47,6 +47,8 @@ public class SortAStack {
         st.push(5);
         st.push(15);
         st.push(20);
+        st.push(8);
+
 
         sort(st);
 
