@@ -12,6 +12,7 @@ public class O3_print_1_to_N_Using_Recirsion {
         print1toN(n-1);
 
         System.out.printf(" " + n );
+        
     }
 
 }
